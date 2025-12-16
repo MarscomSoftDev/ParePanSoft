@@ -71,24 +71,24 @@ body {
   border-radius: 10px;
   color: rgb(0, 0, 0);
   font-family: "kaisei Decol", serif;
-  padding-left: 30px;
   font-size: 16px;
   margin: 20px;
   background-color: transparent;
   cursor: pointer;
   transition: background-color 0.3s ease, border 0.3s ease;
   text-align: center;
-  color: white;
+  color: rgb(75, 71, 71);
   font-size: 20px;
 }
 
 .button_sign_in:hover {
-  background-color: #afde7f; /* Fondo verde claro al pasar el cursor */
+  background-color: #afde7f;
   border: 2px solid #68b44d;
+  color: white;
 }
 
 .button_sign_in:active {
-  background-color: #68b44d; /* Fondo verde más oscuro al hacer clic */
+  background-color: #68b44d;
   border: 2px solid #5a9c43;
 }
 
@@ -115,7 +115,6 @@ body {
   border-radius: 10px;
   color: rgb(0, 0, 0);
   font-family: "kaisei Decol", serif;
-  padding-left: 30px;
   font-size: 16px;
   margin: 1px;
   background-color: #afde7f;
